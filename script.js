@@ -7,3 +7,7 @@ document.querySelectorAll(".game-card").forEach(card => {
   });
 });
 
+// ADD GAME OPEN FUNCTION
+function openGame(page) {
+  window.location.href = page;
+}
