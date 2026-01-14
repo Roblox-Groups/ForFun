@@ -66,3 +66,28 @@ body {
   transform: translateY(-5px);
   box-shadow: 0 10px 25px rgba(0,0,0,0.3);
 }
+body {
+  background: #0b1020;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.games {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.game {
+  background: #1a2340;
+  padding: 15px;
+  border-radius: 12px;
+  width: 180px;
+}
+
+.game img {
+  width: 100%;
+  border-radius: 8px;
+}
